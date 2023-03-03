@@ -1,2 +1,2 @@
-# kotlin_app
-Android Clock Custom View
+# Android Clock Custom View
+Mobile App
