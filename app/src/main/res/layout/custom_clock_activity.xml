@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout
+    android:id="@+id/frameLayout"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,16 +9,17 @@
     tools:context=".CustomClockActivity">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:cardCornerRadius="10dp"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/gray_600">
 
         <my.general.clockcustomview.CustomClockView
-            android:id="@+id/customClockView"
+            android:id="@+id/customClockView1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingStart="0dp"
+            android:padding="10dp"
             app:circleColor="#DDC1BB"
             app:delimitersType="line"
             app:enabledSmallDelimiters="true"
@@ -29,4 +31,20 @@
             app:secondHandColor="#FF0000"
             app:smallDelimitersColor="@color/black" />
     </androidx.cardview.widget.CardView>
+
+    <my.general.clockcustomview.CustomClockView
+        android:id="@+id/customClockView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        app:circleColor="#605E5E"
+        app:delimitersType="line"
+        app:enabledSmallDelimiters="true"
+        app:hourHandColor="@color/black"
+        app:mainDelimitersColor="@color/light_blue_600"
+        app:minuteHandColor="@color/gray_400"
+        app:numbersColor="@color/white"
+        app:ringColor="@color/teal_700"
+        app:secondHandColor="#00BCD4"
+        app:smallDelimitersColor="@color/light_blue_400" />
 </FrameLayout>
