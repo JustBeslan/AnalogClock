@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomClockView">
+        <attr name="ringColor" format="color"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="mainDelimitersColor" format="color"/>
+        <attr name="smallDelimitersColor" format="color"/>
+        <attr name="hourHandColor" format="color"/>
+        <attr name="minuteHandColor" format="color"/>
+        <attr name="secondHandColor" format="color"/>
+        <attr name="numbersColor" format="color"/>
+
+        <attr name="enabledSmallDelimiters" format="boolean"/>
+
+        <attr name="delimitersType" format="flags">
+            <flag name="line" value="0"/>
+            <flag name="point" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

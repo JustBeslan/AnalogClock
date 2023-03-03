@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomClockActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp">
+
+        <my.general.clockcustomview.CustomClockView
+            android:id="@+id/customClockView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="0dp"
+            app:circleColor="#DDC1BB"
+            app:delimitersType="line"
+            app:enabledSmallDelimiters="true"
+            app:hourHandColor="@color/black"
+            app:mainDelimitersColor="@color/white"
+            app:minuteHandColor="@color/black"
+            app:numbersColor="@color/black"
+            app:ringColor="#B1857D"
+            app:secondHandColor="#FF0000"
+            app:smallDelimitersColor="@color/black" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
