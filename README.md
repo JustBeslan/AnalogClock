@@ -13,5 +13,12 @@ Mutable attributes:
 - Color second hand (secondHandColor)
 - Color numbers (numbersColor)
 
+![attributes](https://github.com/JustBeslan/AnalogClock/blob/master/images/attributes.png?raw=true)
+
 - Draw small delimiters?! (enabledSmallDelimiters) [true, false]
+
+![drawSmallDelimiters](https://github.com/JustBeslan/AnalogClock/blob/master/images/drawSmallDelimiters.png?raw=true)
+
 - Type delimiters (delimitersType) [line, point]
+
+![typeDelimiters](https://github.com/JustBeslan/AnalogClock/blob/master/images/typeDelimiters.png?raw=true)
