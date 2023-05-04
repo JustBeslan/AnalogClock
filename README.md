@@ -1,6 +1,8 @@
 # Analog Clock
 Custom view of analog clocks that show the current time
 
+![clocks](https://github.com/JustBeslan/AnalogClock/blob/master/images/clocks.png?raw=true)
+
 Mutable attributes:
 - Color ring (ringColor)
 - Color inner circle (circleColor)
